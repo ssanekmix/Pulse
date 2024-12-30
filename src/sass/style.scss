@@ -1,4 +1,6 @@
-@import 'base/variables';
+@use 'base/variables';
+@use 'blocks/promo';
+@use 'blocks/header';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
