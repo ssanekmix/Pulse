@@ -1,8 +1,16 @@
-@use 'base/variables';
+@use 'base/variables' as vars;
 @use 'blocks/promo';
 @use 'blocks/header';
+@use 'blocks/buttons';
+
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
+}
+body {
+    color: vars.$main-color;
+}
+a {
+    text-decoration: none;
 }
 .container {
     max-width: 950px;
