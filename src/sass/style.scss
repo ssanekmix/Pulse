@@ -1,13 +1,15 @@
-@use 'base/variables' as vars;
+@use 'base/variables';
 @use 'blocks/promo';
 @use 'blocks/header';
 @use 'blocks/buttons';
+@use 'blocks/benefits';
+@use 'blocks/titles';
+@use 'blocks/media';
+@use 'blocks/consultation';
+@use 'blocks/forms';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
-}
-body {
-    color: vars.$main-color;
 }
 a {
     text-decoration: none;
