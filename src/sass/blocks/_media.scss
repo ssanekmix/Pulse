@@ -50,8 +50,12 @@
     .title {
         font-size: 34px;
     }
+    .slick-slide img {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .container {
         width: 550px;
     }
@@ -107,6 +111,23 @@
         display: none;
     }
 }
+@media (max-width: 600px) {
+    .title_left {
+        text-align: center;
+        font-size: 22px;
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 70px 0 92px 0;
+        &__descr {
+            text-align: center;
+            font-size: 16px;
+        }
+    }
+    .feed-form {
+        margin: 43px auto;
+    }
+}
 @media (max-width: 576px) {
     .container {
         width: 100%;
@@ -157,7 +178,7 @@
             }
         }
         &__link {
-            margin-right: 97px;
+            margin-right: 28%;
             font-size: 11px;
         }
     }

@@ -4,9 +4,15 @@
 @use 'blocks/buttons';
 @use 'blocks/benefits';
 @use 'blocks/titles';
-@use 'blocks/media';
 @use 'blocks/consultation';
 @use 'blocks/forms';
+@use 'blocks/carousel';
+@use 'blocks/catalog';
+@use 'blocks/reviews';
+@use 'blocks/footer';
+
+//запросы должны быть подключены в последнюю очередь
+@use 'blocks/media';
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;

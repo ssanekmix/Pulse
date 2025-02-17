@@ -22,4 +22,12 @@
         background-color: $main-color;
         font-size: 16px;
     }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+        &:hover {
+            box-shadow: 3px 3px 10px rgb(146, 130, 130);
+        }
+    }
 }
