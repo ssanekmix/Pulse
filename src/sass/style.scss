@@ -1,4 +1,5 @@
 @use 'base/variables';
+@use 'base/animations';
 @use 'blocks/promo';
 @use 'blocks/header';
 @use 'blocks/buttons';
@@ -10,7 +11,8 @@
 @use 'blocks/catalog';
 @use 'blocks/reviews';
 @use 'blocks/footer';
-
+@use 'blocks/modal';
+@use 'blocks/pageup';
 //запросы должны быть подключены в последнюю очередь
 @use 'blocks/media';
 

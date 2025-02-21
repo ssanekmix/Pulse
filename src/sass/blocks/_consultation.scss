@@ -1,3 +1,4 @@
+@use 'base/variables' as *;
 .consultation {
     min-height: 680px;
     padding: 100px 0 92px 0;
@@ -6,5 +7,13 @@
         color: #ffffff;
         font-size: 20px;
         font-weight: 500;
+    }
+    .error {
+        border: 3px solid $main-color;
+        margin-bottom: 15px;
+    }
+    label.error {
+        color: #ffffff;
+        border: none;
     }
 }
